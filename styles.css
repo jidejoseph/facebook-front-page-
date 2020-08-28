@@ -1,0 +1,170 @@
+body {
+	width: 100%;
+	height: 100vh;
+	background-color: Aliceblue;
+	margin: 0;
+}
+#page {
+	display: flex;
+	flex-direction: row-reverse;	
+	justify-content: space-around;
+
+}
+#side1 {
+	width: 30%;
+	height: 50vh;
+	background-color: white;
+	float: right;
+	margin-right: 100px;
+	margin-top: 10%;
+	border: 10px solid white;
+	border-radius: 10px;
+	box-shadow: 1px 1px 20px #cce7ff;
+
+}
+#side2 {
+	width: 50%;
+	height: 60vh;
+	background-color: ;
+	margin-top: 80px;
+}
+#boxes-page {
+	width: 80%;
+	height: 30vh;
+	margin-bottom: 20px;
+	margin-left: 20%;
+	display: flex;
+	justify-content:; 
+	
+}
+.box1 {
+	width: 30%;
+	height: 28vh;
+	background-color: white;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	box-shadow: 1px 1px;
+}
+.box1 :hover {
+	background-color: white;
+	transition: ease all 0.2s;
+}
+
+.box2 {
+	width: 30%;
+	height: 28vh;
+	background-color: white;
+	border-radius: 10px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+.image-text {
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	margin-top: 5px;
+}
+.image-text2 {
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	padding-bottom: 90%;
+}
+
+.text1 {
+	width: 50%;
+	height: 50px;
+	font-size: 40px;
+	font-weight: bolder;
+	color: #1a75ff;
+	margin-left: 20%;
+	padding-top: 20px;
+
+}
+.text2 {
+	width: 50%;
+	height: 40px;
+	font-size: 30px;
+	background-color:;
+	margin-left: 20%;
+	
+}
+.text3 {
+	width: 50%;
+	height: 20px;
+	background-color:;
+	margin-left: 20%;
+
+}
+
+
+.creat-page {
+	width: 60%;
+	height: 30px;
+	margin-left:  ;
+	margin-top: 20px;
+	color: black;
+	
+}
+.create-acct-button {
+	width: 50%;
+	height: 50px;
+	font-size: 18px;
+	margin-left: 25%;
+	margin-top: 20px;
+	background-color: #00cc44;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+.create-acct-button:hover {
+	background-color: #008000;
+	transition: ease all 0.7s;
+}
+
+.creat-a-page {
+	width: 100%;
+	height: 40px;
+	margin-left: 40px;
+	background-color: ;
+	margin-top: 40px;
+}
+
+.email {
+	width: 90%;
+	height: 50px;
+	margin-top: 10px;
+	margin-left: 15px;
+	border: 1px solid #b3cccc;
+  	border-radius: 6px;
+
+}
+.password {
+	width: 90%;
+	height: 50px;
+	margin-top: 10px;
+	margin-left: 15px;
+	border: 1px solid #b3cccc;
+    border-radius: 5px;
+    background-color: ;
+	
+}
+.login-botton {
+  width: 92%;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 15px;
+  height: 55px;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: #1a75ff;
+  color: white;
+}
+.forgotten-pass {
+	width: 50%;
+	height: 40px;
+	font-size: 18px;
+	color: blue;
+	margin-left: 30%;
+	margin-top: 20px;
+}
